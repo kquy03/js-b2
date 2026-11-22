@@ -1,0 +1,60 @@
+<!-- File: index.html (Thêm nút #theme-toggle ở dòng 11 và nhúng jQuery + script.js ở cuối) -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương 3: Portfolio Cá Nhân (JS & jQuery)</title>
+    <link rel="stylesheet" href="c3.css">
+</head>
+<body>
+    <div class="container">
+        <button type="button" id="theme-toggle">🌙 Chế độ Tối</button>
+
+        <header class="profile-header">
+            <img src="https://placeholder.com" alt="Ảnh đại diện" class="avatar">
+            <h1>Nguyễn Võ Kym Quy</h1>
+            <p class="subtitle">Sinh viên Thiết kế Web & Lập trình Front-end</p>
+        </header>
+
+        <section class="about">
+            <h2 class="toggle-title">Giới thiệu bản thân ▼</h2>
+            <div class="section-content">
+                <p>Xin chào! Mình là sinh viên đam mê xây dựng giao diện web hiện đại, tối ưu trải nghiệm người dùng bằng HTML, CSS và JavaScript.</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 class="toggle-title">Kỹ năng chuyên môn ▼</h2>
+            <div class="section-content">
+                <ul>
+                    <li>HTML5 & Semantic Web</li>
+                    <li>CSS3, Flexbox & Responsive Design</li>
+                    <li>JavaScript & Thư viện jQuery</li>
+                    <li>Quản lý mã nguồn với Git & GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="toggle-title">Dự án nổi bật ▼</h2>
+            <div class="section-content">
+                <article class="project-item">
+                    <h3>Ứng dụng To-do List</h3>
+                    <p>Quản lý công việc hằng ngày với tính năng thêm, đánh dấu hoàn thành và xóa mượt mà.</p>
+                </article>
+                <article class="project-item">
+                    <h3>Website Giới thiệu bản thân</h3>
+                    <p>Trang CV trực tuyến hỗ trợ giao diện Sáng/Tối.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <p>Liên hệ: <a href="mailto:sinhvien@example.com">sinhvien@example.com</a></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
